@@ -18,7 +18,8 @@ Este projeto é uma **calculadora básica** desenvolvida com **HTML** e **JavaSc
 
 ## 📸 Demonstração
 
-<img width="1345" height="864" alt="Sem título" src="https://github.com/user-attachments/assets/5b1fdce3-673b-484f-9545-d3763cb9ca65" />
+
+<img width="602" height="438" alt="Sem título" src="https://github.com/user-attachments/assets/0f7eb6e0-c3e1-48c3-8783-4455bf4dad9a" />
 
 
 ## 🎯 Objetivo do projeto
@@ -29,8 +30,7 @@ O principal objetivo deste projeto é **praticar funções em JavaScript** e ent
 
 1. Abra o link no navegador:
    (https://biellzindev.github.io/Tabuada/)
-2. Abra o arquivo `index.html` no navegador.
-3. Use a calculadora direto na página.
+2. Use a calculadora direto na página.
 
 ## 🤝 Contribuições
 
