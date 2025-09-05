@@ -1,9 +1,3 @@
-Beleza 🚀 Vou montar um **README.md** direto no estilo do GitHub, explicando de forma simples e clara seu projeto da calculadora em **HTML + JS**.
-
-Aqui vai um modelo inicial que você pode copiar e colar no seu repositório:
-
----
-
 # 🧮 Calculadora Simples
 
 Este projeto é uma **calculadora básica** desenvolvida com **HTML** e **JavaScript**, criada com o objetivo de **treinar funções e manipulação de botões** no JavaScript.
