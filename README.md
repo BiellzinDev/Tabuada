@@ -19,7 +19,15 @@ Este projeto é uma **calculadora básica** desenvolvida com **HTML** e **JavaSc
 ## 📸 Demonstração
 
 
-<img width="602" height="438" alt="Sem título" src="https://github.com/user-attachments/assets/0f7eb6e0-c3e1-48c3-8783-4455bf4dad9a" />
+<img width="407" height="828" alt="iPhone-13-PRO-127 0 0 1" src="https://github.com/user-attachments/assets/677e4072-dfa1-4a98-86a3-dbaa47269cf9" />
+
+
+
+<img width="652" height="903" alt="iPad-PRO-11-127 0 0 1" src="https://github.com/user-attachments/assets/4a4ab2d3-b94f-4629-9416-d130214576cb" />
+
+
+
+<img width="1400" height="804" alt="Macbook-Air-127 0 0 1" src="https://github.com/user-attachments/assets/fb08b8e1-cafa-42ed-9905-873a461980c9" />
 
 
 ## 🎯 Objetivo do projeto
