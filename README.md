@@ -1,4 +1,4 @@
-# 🧮 Calculadora Simples
+# 🧮 Tabuada Simples com JavaScript
 
 Este projeto é uma **calculadora básica** desenvolvida com **HTML** e **JavaScript**, criada com o objetivo de **treinar funções e manipulação de botões** no JavaScript.
 
