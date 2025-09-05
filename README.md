@@ -18,7 +18,8 @@ Este projeto é uma **calculadora básica** desenvolvida com **HTML** e **JavaSc
 
 ## 📸 Demonstração
 
-*(Se quiser, adicione aqui um print ou gif do projeto rodando!)*
+<img width="1345" height="864" alt="Sem título" src="https://github.com/user-attachments/assets/5b1fdce3-673b-484f-9545-d3763cb9ca65" />
+
 
 ## 🎯 Objetivo do projeto
 
@@ -26,11 +27,8 @@ O principal objetivo deste projeto é **praticar funções em JavaScript** e ent
 
 ## 📂 Como usar
 
-1. Clone este repositório:
-
-   ```bash
-   git clone https://biellzindev.github.io/Tabuada/
-   ```
+1. Abra o link no navegador:
+   (https://biellzindev.github.io/Tabuada/)
 2. Abra o arquivo `index.html` no navegador.
 3. Use a calculadora direto na página.
 
