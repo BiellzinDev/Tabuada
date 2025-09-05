@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+
+    <style>
+        body{
+            height: 100vh;
+            width: 100%;
+            align-content: center;
+            text-align: center;
+            gap: 30px;
+        }
+        h1{
+            text-transform: uppercase;
+        }
+        .container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            padding: 30px;
+        }
+        input{
+            width: 20%;
+            height: 2rem;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        button{
+            padding: 12px;
+            border-radius: 5px;
+            background: rgb(13, 196, 7);
+            color: white;
+            cursor: pointer;
+        }
+
+        #limpar{
+            background: rgb(241, 11, 11);
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabuada utilizando JS</h1>
+
+    <div class="container">
+        <input type="number" id="number" placeholder="Digite um numero e veja sua tabuada">
+        <div>
+            <button onclick="calcular()">Calcular</button>
+            <button id="limpar" onclick="limpar()">Limpar</button>
+        </div>
+    </div>
+    <div id="output"></div>
+
+    <script>
+            const number = document.getElementById("number")
+            const output = document.getElementById("output")
+
+            let tabuadaHTML = ""
+            let soma = 0
+            
+            function calcular(){
+                const numberValue = number.value
+
+                for(let i = 0; i <= 100; i++){
+                    soma = numberValue * i
+                    tabuadaHTML+= `${numberValue} x ${i} = ${soma} <br>`
+                }
+                output.innerHTML = tabuadaHTML
+            }
+
+            function limpar(){
+                tabuadaHTML = ""
+                output.innerHTML = tabuadaHTML
+            }
+        </script>
+</body>
+</html>
