@@ -6,28 +6,44 @@
     <title>Tabuada</title>
 
     <style>
+        *,
+        ::after,
+        ::before{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         body{
             height: 100vh;
             width: 100%;
             align-content: center;
             text-align: center;
-            gap: 30px;
+            gap: 10px;
+            background: rgb(231, 227, 227);
         }
-        h1{
-            text-transform: uppercase;
-        }
-        .container{
+        .back{
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 1rem;
-            padding: 30px;
+        }
+        .container{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 1rem;
+            flex-basis: content;
+            gap: .2rem;
         }
         input{
-            width: 20%;
-            height: 2rem;
+            width: 100%;
+            height: 3rem;
             border-radius: 15px;
             text-align: center;
+        }
+        .container .label{
+            align-self: flex-start;
+            gap: 0;
         }
 
         button{
@@ -36,24 +52,41 @@
             background: rgb(13, 196, 7);
             color: white;
             cursor: pointer;
+            width: 100%;
         }
 
         #limpar{
             background: rgb(241, 11, 11);
         }
+        button:hover{
+            opacity: .6;
+            cursor: pointer;
+        }
+        .btn{
+            display: flex;
+            gap: 20px;
+            padding: .5rem;
+            width: 100%;
+        }
+        #output{
+            border-radius: 15px;
+            padding: 2rem;
+        }
     </style>
 </head>
 <body>
-    <h1>Tabuada utilizando JS</h1>
-
-    <div class="container">
-        <input type="number" id="number" placeholder="Digite um numero e veja sua tabuada">
-        <div>
-            <button onclick="calcular()">Calcular</button>
-            <button id="limpar" onclick="limpar()">Limpar</button>
+    <div class="back">
+        <h1>Tabuada utilizando JS</h1>
+        <div class="container">
+            <label for="number" class="label">Digite um numero para ver sua tabuada</label>
+            <input type="number" id="number" placeholder="Digite um numero e veja sua tabuada">
+            <div class="btn">
+                <button onclick="calcular()">Calcular</button>
+                <button id="limpar" onclick="limpar()">Limpar</button>
+            </div>
         </div>
+        <div id="output"></div>
     </div>
-    <div id="output"></div>
 
     <script>
             const number = document.getElementById("number")
@@ -65,7 +98,7 @@
             function calcular(){
                 const numberValue = number.value
 
-                for(let i = 0; i <= 100; i++){
+                for(let i = 0; i <= 10; i++){
                     soma = numberValue * i
                     tabuadaHTML+= `${numberValue} x ${i} = ${soma} <br>`
                 }
@@ -78,5 +111,4 @@
             }
         </script>
 </body>
-
 </html>
